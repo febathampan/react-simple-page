@@ -1,3 +1,43 @@
+# This Web Application is a professional portfolio of a Software Engineer.
+
+# External resources and references:
+
+1. Bootstrap for styling
+2. Image by [Free Photos](https://pixabay.com/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280538) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280538)
+3. [Stack Overflow](https://stackoverflow.com/).
+
+# Bootstrap and custom styling(defined in App.css) are used to style the content in this app.
+
+# JSX is used to build the UI for each component.
+
+# Components:
+
+1. MainHead - class component.
+   MainHead is the component for including elements like link.This is done to include Bootstrap in the application.
+
+2. Header - class component.
+   Includes page title.
+   props: name - Name for displaying as title
+
+3. Content - class component.
+   The Content component accomodates all the main information in the web page. It utilises the components - Banner and Section
+
+4. Banner - function component. Uses React State Hook.
+   Displays the user's profile image in the page.
+   Utilises react State Hook to change images on button click.
+
+5. Section - function component.
+   Displays the content in each card layout. This component is reused to display the 'Professional Summary', 'Top Skills' and 'How do you hire me?' sections.
+   props:
+   title - tile for section
+   subhead - subheading for section
+   bg - background color for the Section
+   data - content in the Section
+
+6. Footer - function component.
+   Displays footer content
+   props: year - year to be displayed in copyrights.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+/*-------------------*/
+
+/* Styling for image in the banner component*/
+img{
+  width: 350px;
+  height: 250px;
+}
+
+.profile-img .img{
+padding: 10px;
+}
+/*-------------------*/
+
+/*These styles are used in various components to define background color*/
+.bg-baby-blue{
+  background-color: #E7F2F8;
+}
+
+.bg-cream{
+  background-color: #EFE7BC
+}
+.bg-blue{
+  background-color: #74BDCB;
+}
+
+.txt-white{
+  color: white;
+}
+.bg-pink{
+  background-color: #FFA384;
+}
+/*-------------------*/
+
+/*Back ground image in the main screen*/
+.bg-img{
+  background-image: url("bg-img.jpg");
+}
+
+/*-------------------*/
